@@ -60,6 +60,31 @@ que será la plataforma que utilizaremos, para esto es necesario ingresar al lin
 que se presentan en la pagina para crear una cuenta nueva. 
 una vez se tenga una cuenta en GIThub 
 File> settings > version controll> Github > agregar su cuenta de Github
-
-
+una vez realizado este paso la cuenta queda unida a github. 
+'''
+'''
+en este caso deben clonar (crear una copia) el repositorio del curso para ello deben ingresar a 
+https://github.com/Juannieto1997/ProgramacionAplicada
+y hacer click en la opción fork, una vez realizado este procedimiento, tienen acceso a todo el material del curso a 
+partir de su cuenta del GitHub. 
+despues de tener acceso a Git a traves de pycharm, deben realizar el clon en el equipo que estan utilizando, 
+para ello ingresen por la sección Git del menú superior, y seleccionar la opción clonar, en este caso, 
+deben aparecer todos los repositorios disponibles en la cuenta. y deben clonar el repositorio del curso. 
+NOTA: la versión que se crea es local, por lo que no modificarán la versión original al realizar cambios sobre sus
+archivos, siempre pueden volver a descargar el original. 
+'''
+# Uso de Git para realizar cambios en su código.
+'''
+Despues de iniciar sesión en Git podran ver 3 opciones en la parte superior derecha 
+-update: descarga la información que se encuentra en internet 
+-commit: sube la información a internet (asumiendo que no hay errores)
+- push: obliga a subir la información. 
+a partir de estros tres comandos podran realizar cambios a sus códigos y entregarán los trabajos por este medio. 
+'''
+# Información adicional
+'''
+NOTA: es mucho más facil trabajar estos temas desde linux si alguien lo quiere trabajar
+https://www.youtube.com/watch?v=7sinNdn49Uk&ab_channel=OdooMates
+https://www.youtube.com/watch?v=a8MckiothGc&ab_channel=TheoSuciu
+https://www.youtube.com/watch?v=RGOj5yH7evk&ab_channel=freeCodeCamp.org
 '''
