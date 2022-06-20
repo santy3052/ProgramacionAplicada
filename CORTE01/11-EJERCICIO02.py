@@ -14,6 +14,10 @@ Taller 02
 1. realice una función f_csv2list('string') que convierta un archivo separado por comas en una lista de elementos
 2. pruebe su función con la cadena '2,3,4,5,6,7,8,9,0,hola'
 NOTA: todas las funciones deben retornar el resultado de su operación
+
+Los ejercicios son de caracter obligatorio, sin embargo no se les asignará una calificación, el objetivo de estos
+es que ustedes practiquen y mejoren sus habilidades.
+estos los deben subir de manera individual en su cuenta de Git
  '''
 ## Solución:
 # f_suma
