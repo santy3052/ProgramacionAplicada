@@ -1,4 +1,5 @@
-## 18 - BUSQUEDA BINARIA
+
+'''## 18 - BUSQUEDA BINARIA
 '''
 A diferencia de la busqueda secuencial en la busqueda binaria se parte de un set ordenado de datos y se van
 descartando en cada iteración.
