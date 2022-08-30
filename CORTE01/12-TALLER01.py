@@ -9,15 +9,8 @@ l_paises = ['Colombia','Mexico','Turquía','Polonia','serbia','dinamarca','holad
 #TODO: escriba un programa que le permina escribir de manera automatica los nombres de estos paises en un archivo txt
 #NOTA: todos los nombres deben tener una mayuscula al comienzo
 #       el archivo se ecuentra en formato csv
-SOLUCION 1    
-nombre_archivo = 'programar.txt'  #se genera el nombre del archivo formato txt
-with open(nombre_archivo, 'w',encoding='utf_8') as archivo:  # se usa with para genera la apertura del archivo, se usa el modo 'w' para escribir en él y se usa el encoding con el fin de poder generar caracteres especiales 
-    archivo.write("l_paises = ['Colombia','Mexico','Turquía','Polonia','serbia','dinamarca','holada','Alemania']")  # se genera el mensaje dentro del archivo con el .write()
 ## 2. Lectura de archivos (1.0)
 #TODO: escriba un programa que le permita leer e imprimir el archivo generado anteriormente
-with open('programar.txt') as archivo:      # se llama al archvo generado y guardado anteriormente (en este caso en la misma carpeta)
-    contenido = archivo.read()      # se determina una variable para contener la informacion del archvo pero en modo lectura con el .read()
-    print(contenido)        #se imprime la variable del modo lectura
 
 ## 3. números binario (1.5)
 def f_calBin (s_num):
