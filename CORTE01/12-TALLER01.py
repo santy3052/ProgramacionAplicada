@@ -46,3 +46,41 @@ def f_stat (l_valores):
 ## 5. BONO (0.5)
 #TODO: realizar la verificación del punto aterior haciendo uso de la función assert (pytest)
 
+
+SOLUCION
+#1 punto- paso arcnivo .py a .txt
+nombre_archivo = 'programar.txt'  #se genera el nombre del archivo formato txt
+with open(nombre_archivo, 'w',encoding='utf_8') as archivo:  # se usa with para genera la apertura del archivo, se usa el modo 'w' para escribir en �l y se usa el encoding con el fin de poder generar caracteres especiales
+    archivo.write("l_paises = ['colombia','Mexico','Turqu�a','Polonia','serbia','dinamarca','holada','Alemania']")  # se genera el mensaje dentro del archivo con el .write()
+
+#2 punto- paso archivo txt a lectura .py
+with open('programar.txt') as archivo:      # se llama al archvo generado y guardado anteriormente (en este caso en la misma carpeta)
+    contenido = archivo.read()      # se determina una variable para contener la informacion del archvo pero en modo lectura con el .read()
+    print(contenido)        #se imprime la variable del modo lectura
+
+#3 punto- calculadora
+def f_calBin(decimal):      # se genera una funcion
+    numero_binario = 0      # se define la variable
+    multiplo = 1    # se le da valor a multiplo
+
+    while decimal != 0:     # se almacena el m�dulo en el orden correcto
+        numero_binario = numero_binario + decimal % 2 * multiplo        # se opera para obtener los numeros binarios
+        decimal //= 2       #se invierte el numero
+        multiplo *=10
+    return numero_binario       # se retorna la funcion
+
+#4 punto Valores estaticos
+import numpy as np
+l_valores=[12,8,22,58,13,85,20,14]      # se dan los valores
+def f_stat(l_valores):
+    l_valores=[12,8,22,58,13,85,20,14]
+    print(l_valores)   
+    suma=sum(l_valores)     #se suman los valores
+    tot=len(l_valores)      # se da el numero total de valores
+    media=np.median(l_valores)      # se da la media
+    promed=(suma/tot)       # se romedia
+    desv=np.std(l_valores)      #se da la desviacion
+    print("El promedio de sus datos es", promed)
+    print("la media es", media)
+    print("la desviacion estandar es", desv)
+print(f_stat(l_valores))
