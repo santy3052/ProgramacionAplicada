@@ -33,8 +33,8 @@ s_num = int(input('ingrese el numero de inicio'))
 f_num = int(input('ingrese su numero objetivo'))
 def f_contar(s_num, f_num): # se inicia la función, esta debe tener un parametro que sirva como memoria del sistema
     if s_num < f_num: # si el número actual es menor que 10, aumentar en uno y volver a correr la función
-        print(s_num)
-        s_num+=1
+        print(s_num) #se imprime el numero
+        s_num+=1 # despues de imprimir se le suma una unidad
         return f_contar(s_num,f_num) # al correr nuevamente la función, ingresa con s_num + 1 como parametro por lo que cada vez incrementa
     else:
         return s_num # finalmetne cuando se cumple la condición se retorna el valor final
@@ -46,8 +46,8 @@ f_num = int(input('ingrese su numero objetivo'))
 h_num = int(input('ingrese el salto numerico'))
 def f_contar(s_num, f_num, h_num): # se inicia la función, esta debe tener un parametro que sirva como memoria del sistema
     if s_num < f_num: # si el número actual es menor que 10, aumentar en uno y volver a correr la función
-        print(s_num)
-        s_num+= h_num
+        print(s_num) #se imprime el numero
+        s_num+= h_num # se le añaden las unidades deseadas anteriormente
         return f_contar(s_num,f_num, h_num) # al correr nuevamente la función, ingresa con s_num + 1 como parametro por lo que cada vez incrementa
     else:
         return s_num # finalmetne cuando se cumple la condición se retorna el valor final
@@ -62,6 +62,14 @@ https://www.geogebra.org/m/NqyWJVra
 '''
 # TODO: Implementar una solución recursiva a la torre de hanoi
 
+def torre(num, u, d, t):
+    if num==1:
+        print('primer disco de', u, 'a', d)
+        return
+    torre(num-1, t, d, u)
+    print('dico', num, 'de', u, 'a', d)
+    torre(num-1, t, d, u)
+torre(4, 'u', 'd', 't')
 ## Solución a la torre de Hanoi
 # algortmo tomado de: https://www.delftstack.com/es/howto/python/tower-of-hanoi-python/
 def ToH(n, A, B, C):
@@ -74,3 +82,4 @@ def ToH(n, A, B, C):
 
 
 ToH(3, 'A', 'B', 'C')
+
