@@ -1,3 +1,4 @@
+def f_listaord():
 #TODO Crear una algoritmo que reciba datos de una encuesta realizada por el usuario 
-(la cantidad de opciones son dadas por el usuario) que al final le muestre al usuario 
-las estadisticas de las respuestas de la ge ordenadas se menor a mayor
+(la encuesta tiene n preguntas y los datos que ingresan son SOLO NUMÉRICOS) que al final le muestre al usuario 
+los resultados de la encuesta de manera ordenadas de menor a mayor
