@@ -1,1 +1,3 @@
-#TODO genere 4 objetos que tengan herencia de clases (no pueden ser los 4 con la misma clase como herencia) que puedan retornar 3 datos de clases heredadas
+#TODO genere 4 objetos que tengan herencia de clases y que entre ellos se relacionen en alguna 
+clase (no se pueden relacionar los 4 con la misma clase) al final retornar 3 datos de clases 
+heredadas para cada objeto
