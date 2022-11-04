@@ -1,4 +1,4 @@
 def dar_fecha():
 #TODO genere una funcion que reciba una fecha (la hora de la fecha dada sera la 1.00pm), un dato inicial y un dato final previamente dado,
-tomar 5 numeros aleatorios dentro de ese limite que sumados sera una cantidad de MINUTOS, posteriormente a la fecha dada se le deben sumar 
-los minutos encontrados y se debe devolver al usuario la fecha con la hora encontrada
+tomar 5 numeros aleatorios dentro de ese limite que sumados sera una cantidad de DIAS, posteriormente a la fecha dada se le debe suma
+los dias  encontrados y se debe devolver al usuario la fecha con la hora encontrada
